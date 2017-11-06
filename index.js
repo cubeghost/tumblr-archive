@@ -9,10 +9,10 @@ const yargs = require('yargs');
 const ora = require('ora');
 const { spawn } = require('child-process-promise');
 
-const oauthServer = require('./oauthServer');
-const promptQuestions = require('./promptQuestions');
+const oauthServer = require('./lib/oauthServer');
+const promptQuestions = require('./lib/promptQuestions');
 
-const config = nconf.file('./config.json'); // TBD
+const config = nconf.file('./config.json');
 const pause = new Promise((resolve, reject) => setTimeout(resolve, 800));
 const ONE_DAY = 86400000;
 
