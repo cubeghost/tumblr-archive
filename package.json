@@ -1,7 +1,7 @@
 {
-  "name": "tumblr-backup",
-  "version": "1.0.0",
-  "description": "",
+  "name": "tumblr-archive",
+  "version": "0.1.0",
+  "description": "archives a tumblr blog",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"

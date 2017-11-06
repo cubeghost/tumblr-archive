@@ -1,4 +1,4 @@
-# tumblr backup
+# tumblr-archive
 
 just json for now
 
