@@ -90,7 +90,7 @@ Promise.resolve().then(() => {
   // FETCH EVERY POST
   const spinner = ora('fetching posts').start();
 
-  return spawn('node', ['process.js'], {
+  return spawn('node', ['lib/process.js'], {
     capture: ['stdout']
   }).then((response) => {
     spinner.stopAndPersist({

@@ -22,7 +22,6 @@
     "express-session": "^1.15.6",
     "grant-express": "^3.8.0",
     "inquirer": "^3.3.0",
-    "lodash": "^4.17.4",
     "nconf": "^0.9.1",
     "nightmare": "^2.10.0",
     "opn": "^5.1.0",
